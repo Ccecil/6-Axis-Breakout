@@ -1,0 +1,10698 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c838e8b2-a5a1-4603-8fe4-4d432980e74f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Pack04_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "NANOEveryV3.0-eagle-import:BSS138PS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NANOEveryV3.0:SOT363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET 2N-CH 60V 0.32A 6TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSS138PS_1_0"
+				(circle
+					(center 0 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.54) (xy -1.778 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.905) (xy -1.778 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy -1.778 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.762) (xy -1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.175) (xy -1.778 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.778 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.508 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0.508) (xy 1.27 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy 1.778 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.762) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 0.762 -0.254) (xy 1.778 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BSS138PS_2_0"
+				(circle
+					(center 0 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -2.54) (xy -1.778 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.905) (xy -1.778 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy -1.778 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.762) (xy -1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 3.175) (xy -1.778 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy -1.778 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.508 0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 0.762 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 0.508) (xy 1.27 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.762) (xy 1.778 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -0.508 0.762) (xy -0.508 -0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.508) (xy 0.762 -0.254) (xy 1.778 -0.254)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 43.18 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "193d72b2-0901-4286-85f8-721266b1abf3")
+	)
+	(wire
+		(pts
+			(xy 91.44 39.37) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04abc86b-146d-478f-85c0-b7b0b0993a39")
+	)
+	(wire
+		(pts
+			(xy 163.83 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "05eeeb56-0ad1-4a68-8652-c69bc4cf7208")
+	)
+	(wire
+		(pts
+			(xy 36.83 114.3) (xy 36.83 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "08636134-ef45-4b3a-be06-fde8fd267862")
+	)
+	(wire
+		(pts
+			(xy 110.49 67.31) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0f2e2521-fdcd-4595-ae5c-28dd56643448")
+	)
+	(wire
+		(pts
+			(xy 200.66 44.45) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "12b56d1a-f15d-4a4e-a6db-59bfcd387e6a")
+	)
+	(wire
+		(pts
+			(xy 128.27 62.23) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "186294ed-b8ad-41cb-8ef9-8c2d36bfa3a3")
+	)
+	(wire
+		(pts
+			(xy 36.83 62.23) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1a70157e-d041-4a89-bd77-b43d04a32073")
+	)
+	(wire
+		(pts
+			(xy 54.61 62.23) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adc0049-2f66-4e05-885a-47782788308f")
+	)
+	(wire
+		(pts
+			(xy 124.46 67.31) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1bea09d7-7c11-4238-aa3f-f8429a9a4298")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 43.18 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ec052a8-754e-4947-be86-d75a0b484115")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f311e07-abc7-4b35-a75a-4f9a801ae601")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 80.01 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1fb3cfa3-b9ff-4412-94f7-53310d483652")
+	)
+	(wire
+		(pts
+			(xy 36.83 39.37) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1fe13cde-53ee-4803-92ab-f69dfaf49343")
+	)
+	(wire
+		(pts
+			(xy 54.61 114.3) (xy 54.61 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20ce485a-cca3-450d-8a4a-b7d16b981eff")
+	)
+	(wire
+		(pts
+			(xy 167.64 90.17) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2353bb10-8d16-4149-83cd-dd24ac44a25e")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 149.86 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23bf2398-b27f-4778-a2b7-c8b65c058758")
+	)
+	(wire
+		(pts
+			(xy 156.21 105.41) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f054b9-0f03-44b0-9226-129fd6d22484")
+	)
+	(wire
+		(pts
+			(xy 186.69 39.37) (xy 186.69 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "267be923-8a84-488b-b5d7-100af7c59976")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d2a9717-f190-409a-8bf9-0249e7d39a7e")
+	)
+	(wire
+		(pts
+			(xy 116.84 54.61) (xy 116.84 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "301b298f-29b1-42b8-9508-89eeaab814fd")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "350cde64-82f7-488d-8b57-948242e91362")
+	)
+	(wire
+		(pts
+			(xy 167.64 39.37) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36045ae0-3f87-4588-8239-c7ef10eec560")
+	)
+	(wire
+		(pts
+			(xy 114.3 44.45) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3d9ae7ef-abd4-4852-b65c-e44beac4d970")
+	)
+	(wire
+		(pts
+			(xy 124.46 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3faf334e-771a-40c1-830f-c5ee679fc944")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40fd0ea5-f57f-4690-9d39-de76827141e8")
+	)
+	(wire
+		(pts
+			(xy 73.66 114.3) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "42fe50dc-5f0a-49cc-b6fe-4f376028c551")
+	)
+	(wire
+		(pts
+			(xy 153.67 95.25) (xy 149.86 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "439a54cf-7bcf-40ab-9662-2f0500c03821")
+	)
+	(wire
+		(pts
+			(xy 40.64 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44d95050-82b3-4f1f-901d-e4888d7651b0")
+	)
+	(wire
+		(pts
+			(xy 36.83 119.38) (xy 40.64 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "45f488a2-0d33-4573-b877-45c8509b54fa")
+	)
+	(wire
+		(pts
+			(xy 128.27 39.37) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46fb2ade-c8da-462b-9017-3ea9b0c316d0")
+	)
+	(wire
+		(pts
+			(xy 193.04 54.61) (xy 193.04 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477f0c60-bce5-495c-bd30-0c0fccbba3e8")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d163f96-ff5c-4bd2-a5e5-559b37f0de54")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58868d20-cebf-44f3-a663-21f11f9c32ac")
+	)
+	(wire
+		(pts
+			(xy 156.21 90.17) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "594e4e1f-903b-46a7-b927-78a3ef9effa5")
+	)
+	(wire
+		(pts
+			(xy 87.63 44.45) (xy 91.44 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5a736952-efd0-4f96-ba80-203fc1f542b0")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5bbe557c-0a44-45b5-b536-c8a09115083d")
+	)
+	(wire
+		(pts
+			(xy 149.86 62.23) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ce8c8bf-307e-41b3-b9c4-d80bbda1ac25")
+	)
+	(wire
+		(pts
+			(xy 163.83 95.25) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d5b0b42-3207-499f-b86b-9f820a3420bb")
+	)
+	(wire
+		(pts
+			(xy 40.64 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "60593405-3dfd-4066-aa31-ee77a518ab4b")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635917b2-4042-4221-be28-609f3b660df3")
+	)
+	(wire
+		(pts
+			(xy 87.63 119.38) (xy 91.44 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "647721e4-5873-452d-8250-4f48ff12a491")
+	)
+	(wire
+		(pts
+			(xy 73.66 39.37) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64a077f2-0b2e-4557-badd-a05af1fa20a8")
+	)
+	(wire
+		(pts
+			(xy 124.46 96.52) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "685e87d4-4f9a-4e30-ad01-2698732f5a6a")
+	)
+	(wire
+		(pts
+			(xy 91.44 114.3) (xy 91.44 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d779f1b-8e8a-421f-a364-6cb7267c31f8")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e0ff8ba-5412-4e4d-8952-0083818bdbb2")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720412cd-f365-4be6-8fbb-8b4857f7595e")
+	)
+	(wire
+		(pts
+			(xy 110.49 39.37) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a6ddb89-a7b4-4253-b594-9492238163ea")
+	)
+	(wire
+		(pts
+			(xy 116.84 39.37) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7bdce968-48ed-42b5-b0f4-26ef5ff1a793")
+	)
+	(wire
+		(pts
+			(xy 190.5 44.45) (xy 186.69 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7f89be7d-e4cc-4a27-9f52-45c6f4baf8b1")
+	)
+	(wire
+		(pts
+			(xy 128.27 114.3) (xy 128.27 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe1ffa1-4f5a-4fb7-9514-3e142aa9b218")
+	)
+	(wire
+		(pts
+			(xy 43.18 114.3) (xy 43.18 115.57)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "805a867b-b5dd-4b40-a55d-b99b5ffa9e1c")
+	)
+	(wire
+		(pts
+			(xy 204.47 62.23) (xy 204.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81038622-02f7-42c1-b15e-abfea65d27c3")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 110.49 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "81898f92-2c60-4914-96e7-1531908f26c9")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 77.47 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8eba97d8-7205-4d59-99a2-b678dfbe991a")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 156.21 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc6a4a1-36e5-4758-90d6-0c1ab3f7d646")
+	)
+	(wire
+		(pts
+			(xy 36.83 91.44) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93e56400-3321-407d-92fe-3192f4b212da")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94460d2f-7761-416e-8e3c-821b2d6123bd")
+	)
+	(wire
+		(pts
+			(xy 193.04 39.37) (xy 193.04 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "99730be0-e5d2-49da-8f53-88d8b74291f6")
+	)
+	(wire
+		(pts
+			(xy 43.18 39.37) (xy 43.18 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a61b803-aafb-47e7-bf16-5a54ffbe0650")
+	)
+	(wire
+		(pts
+			(xy 73.66 62.23) (xy 73.66 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9a6b5221-e4f6-497f-a986-d7a9ffffc012")
+	)
+	(wire
+		(pts
+			(xy 186.69 67.31) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a0d14713-41dd-422d-bff2-fcac1398ce40")
+	)
+	(wire
+		(pts
+			(xy 91.44 62.23) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d25958-66a8-4576-8dca-6dbb1d3e8099")
+	)
+	(wire
+		(pts
+			(xy 153.67 44.45) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a1c99f03-96b2-41d7-9321-70cc93f5eaff")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 80.01 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a32128-791b-4cb3-868f-c6ce93b55a1f")
+	)
+	(wire
+		(pts
+			(xy 50.8 67.31) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab2874f1-fcab-4915-b056-ef68a8416b26")
+	)
+	(wire
+		(pts
+			(xy 110.49 119.38) (xy 114.3 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac9dc670-43b6-4ced-bbe5-40ee601e50d5")
+	)
+	(wire
+		(pts
+			(xy 110.49 114.3) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "adf734e2-eb45-4c2a-a852-ea71cb883907")
+	)
+	(wire
+		(pts
+			(xy 149.86 39.37) (xy 149.86 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "af231f51-222f-4728-b72d-29cf6a4b1ce9")
+	)
+	(wire
+		(pts
+			(xy 80.01 113.03) (xy 80.01 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b1a7cdbe-9bea-472b-aa2b-2ca1dd16a007")
+	)
+	(wire
+		(pts
+			(xy 128.27 91.44) (xy 128.27 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b25d0432-f337-442e-a5f7-d22ed2cb1797")
+	)
+	(wire
+		(pts
+			(xy 186.69 62.23) (xy 186.69 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b9475874-583d-4cf1-bf1d-42df8a40c271")
+	)
+	(wire
+		(pts
+			(xy 77.47 96.52) (xy 73.66 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "baa0843d-0f9a-4a10-ab6a-da552442f842")
+	)
+	(wire
+		(pts
+			(xy 163.83 44.45) (xy 167.64 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bd6634a7-aa7b-469e-a4a9-a254f0a5efaa")
+	)
+	(wire
+		(pts
+			(xy 87.63 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "be9d710c-b8ce-4d5e-9328-a51f615b9302")
+	)
+	(wire
+		(pts
+			(xy 43.18 54.61) (xy 43.18 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c34279e9-a045-4d41-8011-012727208488")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cb4baf50-16a4-4688-9478-b737bd84eebd")
+	)
+	(wire
+		(pts
+			(xy 43.18 91.44) (xy 43.18 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cbe91eff-35a2-4fde-8a42-7e5c7caa0364")
+	)
+	(wire
+		(pts
+			(xy 50.8 119.38) (xy 54.61 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd18c55a-ec39-4cbc-91eb-0572afb2bb18")
+	)
+	(wire
+		(pts
+			(xy 77.47 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ceb37573-0956-414b-bd65-0a22820a26cf")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 204.47 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1d0cf8c-2aa8-4170-8692-615e4559b727")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 167.64 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d23656bc-62a5-456c-b2a7-1642c7039857")
+	)
+	(wire
+		(pts
+			(xy 167.64 113.03) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e3812b-9d40-4580-a886-1b82f61f3454")
+	)
+	(wire
+		(pts
+			(xy 80.01 54.61) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9fe1797-7c1f-4921-b537-91053e4b9cef")
+	)
+	(wire
+		(pts
+			(xy 36.83 67.31) (xy 40.64 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dc9a9914-4f2d-434d-98ee-67094f5a2b53")
+	)
+	(wire
+		(pts
+			(xy 149.86 67.31) (xy 153.67 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dda95ad3-1a77-4cf0-bf48-39f0c753b191")
+	)
+	(wire
+		(pts
+			(xy 156.21 39.37) (xy 156.21 31.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e00cbc21-1f7b-4250-9597-4adeea0e1b58")
+	)
+	(wire
+		(pts
+			(xy 50.8 96.52) (xy 54.61 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e13b092a-3ec4-4d63-b280-ef63058332ed")
+	)
+	(wire
+		(pts
+			(xy 204.47 39.37) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d93120-7652-4b9c-b562-3bd17b6e2f6f")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 110.49 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ea48ec57-eaf2-4868-8b69-9740f80c973e")
+	)
+	(wire
+		(pts
+			(xy 149.86 118.11) (xy 153.67 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ec1bac7f-5f8e-4dd3-bae2-ed80bd355bc0")
+	)
+	(wire
+		(pts
+			(xy 87.63 67.31) (xy 91.44 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee9fa673-49a4-4d02-9367-70bc0aaecc16")
+	)
+	(wire
+		(pts
+			(xy 73.66 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f0f0043b-312c-4805-a4eb-f056691ee8e4")
+	)
+	(wire
+		(pts
+			(xy 80.01 91.44) (xy 80.01 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5e510e6-83eb-42a9-a79e-9c38780ecb77")
+	)
+	(hierarchical_label "9L"
+		(shape input)
+		(at 110.49 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "022e542b-9927-4e9f-93fb-ecaba3e47c25")
+	)
+	(hierarchical_label "0L"
+		(shape input)
+		(at 36.83 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cce3e13-8d36-4a04-bc92-81672f868575")
+	)
+	(hierarchical_label "12H"
+		(shape input)
+		(at 167.64 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e797c02-e703-4901-be8a-28731ae70f07")
+	)
+	(hierarchical_label "13H"
+		(shape input)
+		(at 167.64 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ef6afad-90a9-46ec-8e9c-2f106ff52a2f")
+	)
+	(hierarchical_label "14H"
+		(shape input)
+		(at 167.64 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2237f8cb-eb1b-4bac-828d-9bc6deb80833")
+	)
+	(hierarchical_label "3H"
+		(shape input)
+		(at 54.61 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c0a65f0-8244-4387-b2c9-6452299bbdf0")
+	)
+	(hierarchical_label "17H"
+		(shape input)
+		(at 204.47 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35f408f3-949b-434a-bafe-b113dd0949d4")
+	)
+	(hierarchical_label "14L"
+		(shape input)
+		(at 149.86 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "39fd383e-90a0-4b29-b3e1-3dc9826d6c96")
+	)
+	(hierarchical_label "9H"
+		(shape input)
+		(at 128.27 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d1d1644-8500-48b6-b9a7-fc8bcb1ce89d")
+	)
+	(hierarchical_label "0H"
+		(shape input)
+		(at 54.61 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a6d2d93-a237-43d8-9bde-3befced3e25a")
+	)
+	(hierarchical_label "6H"
+		(shape input)
+		(at 91.44 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b4d473f-98cf-41eb-9a63-bcf9ac30849f")
+	)
+	(hierarchical_label "13L"
+		(shape input)
+		(at 149.86 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e6b26e9-4710-4b09-b24b-e226b044791a")
+	)
+	(hierarchical_label "3L"
+		(shape input)
+		(at 36.83 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58e4af51-03f4-40e9-a41d-f1bafab6dfca")
+	)
+	(hierarchical_label "4L"
+		(shape input)
+		(at 73.66 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5addd1d8-1dd7-4e5b-9ec8-f92942dc501f")
+	)
+	(hierarchical_label "11H"
+		(shape input)
+		(at 128.27 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65ea0c55-1794-46f5-b8d9-85e34c825311")
+	)
+	(hierarchical_label "15L"
+		(shape input)
+		(at 149.86 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69d7da9e-446a-4dcc-8a83-1c630d4c1bae")
+	)
+	(hierarchical_label "4H"
+		(shape input)
+		(at 91.44 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "820e171f-9f75-4cf9-a822-70b72e3087fa")
+	)
+	(hierarchical_label "10H"
+		(shape input)
+		(at 128.27 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "839e062f-a321-49c8-aeb7-dc429bc2abab")
+	)
+	(hierarchical_label "12L"
+		(shape input)
+		(at 149.86 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86365941-07d8-46c4-8e5a-2daff88260cb")
+	)
+	(hierarchical_label "1L"
+		(shape input)
+		(at 36.83 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8df99cae-a23f-4162-83ee-43fe9b389b01")
+	)
+	(hierarchical_label "6L"
+		(shape input)
+		(at 73.66 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e2e622e-52f4-421f-bf30-799c268db7b0")
+	)
+	(hierarchical_label "2L"
+		(shape input)
+		(at 36.83 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9393f160-3cad-4b5c-bad8-d282ddac5a50")
+	)
+	(hierarchical_label "15H"
+		(shape input)
+		(at 167.64 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2bc1246-ee91-433b-a2ae-213ee9b7d7d9")
+	)
+	(hierarchical_label "8L"
+		(shape input)
+		(at 110.49 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a661a2cb-163b-4836-bf07-94959c66be37")
+	)
+	(hierarchical_label "5L"
+		(shape input)
+		(at 73.66 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6b3bf38-5910-41d5-aea9-8049e8ddfb2b")
+	)
+	(hierarchical_label "16L"
+		(shape input)
+		(at 186.69 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b59bb4ea-ccc7-42db-9885-f748a2c0764e")
+	)
+	(hierarchical_label "8H"
+		(shape input)
+		(at 128.27 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6b3af23-69aa-4866-91ea-84643fa9077c")
+	)
+	(hierarchical_label "17L"
+		(shape input)
+		(at 186.69 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba5c47d8-9431-4b01-9f0d-22cb1ef8b833")
+	)
+	(hierarchical_label "1H"
+		(shape input)
+		(at 54.61 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c40b558c-5ee0-4287-a877-2ce87fb09121")
+	)
+	(hierarchical_label "7L"
+		(shape input)
+		(at 73.66 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de31ea4d-c5d3-4eee-be21-ffd558fc0f43")
+	)
+	(hierarchical_label "10L"
+		(shape input)
+		(at 110.49 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df7f9592-6ca4-4ad4-93cd-fc19ef4d8e99")
+	)
+	(hierarchical_label "11L"
+		(shape input)
+		(at 110.49 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5205717-c484-4544-93c4-56cd4acf4930")
+	)
+	(hierarchical_label "5H"
+		(shape input)
+		(at 91.44 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec448944-8c26-49ed-8549-c23cc1ba837d")
+	)
+	(hierarchical_label "2H"
+		(shape input)
+		(at 54.61 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "edcb780d-8d15-4e4b-bc48-ac1025be3e93")
+	)
+	(hierarchical_label "7H"
+		(shape input)
+		(at 91.44 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8df7acb-ca3a-4951-9e4e-724b5cf965d6")
+	)
+	(hierarchical_label "16H"
+		(shape input)
+		(at 204.47 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fecfa60e-c185-4b99-8725-c0a85d7b00f7")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0099219e-fa60-46a0-b71f-c992e8af01bd")
+		(property "Reference" "#PWR57"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc417c34-3933-49fc-abe5-14858caa2210")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 149.86 86.36 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015e9357-e7df-4049-bf7b-852186008701")
+		(property "Reference" "RN7"
+			(at 152.4 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.4 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 151.892 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5cfab52a-a8b8-4cb8-bcd2-55cf5269b5cd")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af4")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691531")
+		)
+		(pin "5"
+			(uuid "d0fcb8c1-e896-4cdf-9f08-8594b26041b0")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea5844368d")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee901")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f117")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c1882c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 186.69 58.42 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020c3b6c-7a03-4279-98be-7939145ead10")
+		(property "Reference" "RN9"
+			(at 189.23 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 189.23 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 184.658 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaaf8")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46aec")
+		)
+		(pin "3"
+			(uuid "db956854-fe1e-442c-94f2-89963d2529f5")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df05")
+		)
+		(pin "6"
+			(uuid "015d58cc-fbac-4f9f-8f74-8a63dfb82190")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8fa")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f10f")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18825")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 128.27 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "065092c3-f32e-4dd7-bba7-00906d75b9a9")
+		(property "Reference" "RN6"
+			(at 130.81 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 130.81 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 126.238 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19cc")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf037")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea78")
+		)
+		(pin "1"
+			(uuid "0d375af3-93fe-4657-b915-384ede7a257e")
+		)
+		(pin "8"
+			(uuid "ef86633e-8c2d-4b3a-b6ae-eb771aee6d3d")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926ed")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd06649044a")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515dafc")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 73.66 35.56 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06e4310f-8681-4100-b8fc-9527aa896496")
+		(property "Reference" "RN3"
+			(at 76.2 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 76.2 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 75.692 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaaf5")
+		)
+		(pin "7"
+			(uuid "52c08f96-d6e4-4d52-9aef-266b6a26430a")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691528")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df02")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443684")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8f8")
+		)
+		(pin "2"
+			(uuid "6c01ef6d-d21e-4653-a42d-1bbf7e25eb45")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18823")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09636a16-c86b-4e39-92c5-75e06d26b8d7")
+		(property "Reference" "#PWR55"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca4fa45-ce79-41be-b933-76f1ddb7db5b")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 54.61 58.42 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b2499fd-cd59-4669-9cb5-84b245fe894f")
+		(property "Reference" "RN2"
+			(at 57.15 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 57.15 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 52.578 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19d4")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf03f")
+		)
+		(pin "2"
+			(uuid "92b0ccbb-7a54-4df9-bd3c-34d97e2f9074")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b22929c")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e854")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f7")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd066490454")
+		)
+		(pin "7"
+			(uuid "955cfd33-8485-4e9e-83c4-2ac83e9f93c9")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 119.38 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ba07013-cb14-4ec5-9b50-9266e4b164b2")
+		(property "Reference" "Q6"
+			(at 118.11 90.17 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 118.11 92.71 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f658efe8-faa5-4f83-a77d-e253a56f15f9")
+		)
+		(pin "2"
+			(uuid "5488506e-736c-477e-ad17-dfbb50b996dc")
+		)
+		(pin "6"
+			(uuid "a3bed59b-fb2b-44fd-88fb-c9f7531d5289")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a2")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71842")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b28")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14453971-68ed-453c-bf80-74070b3a70d3")
+		(property "Reference" "#PWR82"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 193.04 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3d906d5-e7fa-48c2-945c-95ac3dd599c2")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17dc28b1-a5f2-49fd-8712-1d45b7f86468")
+		(property "Reference" "#PWR35"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e50746-7aa0-499f-91cf-1affb546573e")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 73.66 87.63 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bcfea48-aac5-4462-973c-d5191f3969dd")
+		(property "Reference" "RN3"
+			(at 76.2 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 76.2 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 75.692 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "cc6415a8-a5c9-4af4-a6c0-814dd6cd9651")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af0")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa70569152e")
+		)
+		(pin "5"
+			(uuid "76900bc3-345d-4e02-b83d-4b9f78c3595b")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea5844368a")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8ff")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f113")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c1882a")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21eb5abe-aa61-45d1-8fa1-9e13034c2d52")
+		(property "Reference" "#PWR45"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65548e86-4a7d-4755-a3fb-b0dd3b5c188a")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 45.72 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "222461a4-7d73-4b04-ae3c-b75fbcfaf46a")
+		(property "Reference" "Q1"
+			(at 44.45 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 44.45 40.64 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba094936-33d7-4e93-aaf6-26addf12b7f3")
+		)
+		(pin "2"
+			(uuid "1c8adbb2-d674-4076-b52e-670c71e4d755")
+		)
+		(pin "6"
+			(uuid "6e90b92d-e91e-42eb-84c3-e77d7b182f86")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a3")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71843")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b29")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23909b0c-3952-4637-ba75-bed8dd110a45")
+		(property "Reference" "#PWR48"
+			(at 80.01 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "707b0cef-fe55-43b3-89ee-ebbdd7a184e3")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 54.61 87.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24aaa564-450b-4fa1-902a-eadebc400a73")
+		(property "Reference" "RN2"
+			(at 57.15 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 57.15 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 52.578 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19c9")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf034")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea75")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229291")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e849")
+		)
+		(pin "6"
+			(uuid "3c98ae58-fc61-44a5-b9d0-ca4eac28a9cb")
+		)
+		(pin "3"
+			(uuid "4b085bb2-0163-4231-8936-4a0698094891")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515daf9")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.27 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2583d72f-4b5a-4f0a-9f16-45956c2ce601")
+		(property "Reference" "#PWR67"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d6f7995-eb11-426a-b011-7d94edf84233")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be3bb05-123e-4feb-868a-936ada6b3d03")
+		(property "Reference" "#PWR59"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb3e035-7267-4950-b60b-6aba2a672988")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 158.75 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e533da6-c1f3-44c8-8c5a-877e10d2887a")
+		(property "Reference" "Q7"
+			(at 157.48 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 157.48 40.64 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d99033fb-2065-48e3-b137-da09bac50912")
+		)
+		(pin "2"
+			(uuid "a271af19-bae8-4d88-8c34-8c0f2aa49b53")
+		)
+		(pin "6"
+			(uuid "c1fbd075-67e4-43a8-b8ef-72e027a4eb59")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a4")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71844")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b2a")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 54.61 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ebb8fb-bce2-4321-9d70-b2a02aaf0a25")
+		(property "Reference" "#PWR40"
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 54.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c507aaee-ca2e-4106-b339-df3649b110fa")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 36.83 35.56 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33da8fdd-ed47-4d14-9170-351a30aa914d")
+		(property "Reference" "RN1"
+			(at 39.37 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 39.37 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 38.862 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaafc")
+		)
+		(pin "7"
+			(uuid "3b4332e1-833e-4eb1-b6e8-6bbe64585429")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa70569152d")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df09")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443689")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8fe")
+		)
+		(pin "2"
+			(uuid "40fd6a77-ae31-4779-a0a0-95940a06a768")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18829")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 149.86 58.42 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3693cc83-7271-4bd6-86df-125d2298b80f")
+		(property "Reference" "RN7"
+			(at 152.4 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.4 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 151.892 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaaf9")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46aed")
+		)
+		(pin "3"
+			(uuid "4a5836f9-b09a-4ebc-ad7c-279b85fb5166")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df06")
+		)
+		(pin "6"
+			(uuid "0c7527b7-812e-441d-80f2-7c318a271f27")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8fb")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f110")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18826")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 110.49 110.49 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "395e23cf-b597-47be-a1f1-3d21405c96ce")
+		(property "Reference" "RN5"
+			(at 113.03 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 113.03 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 112.522 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 110.49 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaafa")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46aee")
+		)
+		(pin "3"
+			(uuid "3d9992b7-4e14-497b-8a48-1c3665354e9a")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df07")
+		)
+		(pin "6"
+			(uuid "add4add8-28d1-4d26-aef1-d3b333e734aa")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8fc")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f111")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18827")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "399ec1cd-3491-4bfc-b371-9e2431ca243c")
+		(property "Reference" "#PWR80"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.69 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ddb5a4-3ee1-45cc-82c7-670257eccfb5")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39ee2f7c-f137-4690-ab2d-5d0af7acd2c2")
+		(property "Reference" "#PWR62"
+			(at 116.84 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0267b78-7557-4d92-965c-0af4a9880e8c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 119.38 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a4804c1-691f-4bdc-9636-0301ea2aa90e")
+		(property "Reference" "Q5"
+			(at 118.11 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 118.11 40.64 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c4d29ba-50b8-4369-8827-15e37b6d7647")
+		)
+		(pin "2"
+			(uuid "0beb3129-496c-41f8-b921-d8f039319770")
+		)
+		(pin "6"
+			(uuid "c4c46ab0-8dbb-48dc-a08f-93bf0a2d88f3")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef8812649f")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b7183f")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b25")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 128.27 87.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b57e49-0f6c-480b-933e-12df928e86df")
+		(property "Reference" "RN6"
+			(at 130.81 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 130.81 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 126.238 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19cb")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf036")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea77")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229293")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e84b")
+		)
+		(pin "6"
+			(uuid "81b70964-fb3c-4bce-9136-483d7b4e2449")
+		)
+		(pin "3"
+			(uuid "8b47bb98-9d1a-4fb7-b10f-d41a2ea816f5")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515dafb")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 91.44 110.49 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41aa1bd1-ab65-4902-9bff-5f703cf7fd8c")
+		(property "Reference" "RN4"
+			(at 93.98 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 93.98 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 89.408 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8aa06cfd-e376-4ed7-ba44-5f5fae1f4dfa")
+		)
+		(pin "5"
+			(uuid "f8f79025-ab7d-4a87-8e6f-628c9ed6ab90")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea7d")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229299")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e851")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f3")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd066490450")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db01")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 186.69 35.56 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42791f67-9680-41d2-bcae-30552e30442a")
+		(property "Reference" "RN9"
+			(at 189.23 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 189.23 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 184.658 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 186.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d2b20d25-5b31-4b6c-adce-d49f138ae320")
+		)
+		(pin "5"
+			(uuid "919100f8-6c20-45a2-abd1-d9f72c6ea71f")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea7a")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229295")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e84d")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f0")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd06649044d")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515dafe")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN9")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42802748-63df-41a8-aa98-acef6ed1f9b1")
+		(property "Reference" "#PWR53"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "334f8e06-ece5-4a82-8b76-4c28a4a71c40")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 204.47 35.56 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43dad433-dc9c-4cf1-9be9-a85acb9d484b")
+		(property "Reference" "RN9"
+			(at 207.01 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 207.01 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 202.438 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19cd")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf038")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea79")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229294")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e84c")
+		)
+		(pin "6"
+			(uuid "f32a1b86-c441-4331-a34a-deaa618e5629")
+		)
+		(pin "3"
+			(uuid "46ec1ce7-4a8a-4646-b535-c44c546e7e5c")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515dafd")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN9")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 204.47 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4477cc22-0df9-4a70-a0e9-c9a63c740088")
+		(property "Reference" "RN9"
+			(at 207.01 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 207.01 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 202.438 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1e246728-9c92-484f-951e-d05092116781")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af5")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691532")
+		)
+		(pin "5"
+			(uuid "1607e394-6490-4ee4-892f-735de524d6d0")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea5844368e")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee902")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f118")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c1882d")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 45.72 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4514f29c-d72a-465e-b564-5b63ed4c6894")
+		(property "Reference" "Q2"
+			(at 44.45 90.17 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 44.45 92.71 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54e25402-2a91-4f72-8ad6-ae7ed874f063")
+		)
+		(pin "2"
+			(uuid "db7d48be-0b69-4e06-9381-20ffe5f0ddee")
+		)
+		(pin "6"
+			(uuid "189b3a93-ee4b-4dd1-98dd-b93d18e2f964")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef8812649e")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b7183e")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b24")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4706d7cd-9080-4426-852d-4617ce33acdb")
+		(property "Reference" "#PWR33"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb84ff94-a939-40e6-95cf-99c6ae13a00e")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 119.38 67.31 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b1f03f9-dc41-4c21-9fe8-a83064d10a92")
+		(property "Reference" "Q5"
+			(at 119.38 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f1")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3c8")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d0")
+		)
+		(pin "3"
+			(uuid "24c8c0aa-8ebc-43c4-9be0-41f6c33d8eeb")
+		)
+		(pin "4"
+			(uuid "f559d48c-1108-4c97-850e-943b3831e6f8")
+		)
+		(pin "5"
+			(uuid "6d8cc3c7-73a6-44cd-8b05-f7a9d1ea5588")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 204.47 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c154570-a33a-4857-9775-cec28aa96e27")
+		(property "Reference" "#PWR85"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50281f05-a7dc-44ca-a9ea-c5eedc0f7682")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 82.55 67.31 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f103664-f8b1-4772-9d66-503503748f4c")
+		(property "Reference" "Q3"
+			(at 82.55 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 80.01 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 82.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7ee")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3c5")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219cd")
+		)
+		(pin "3"
+			(uuid "41729b63-c4aa-4aeb-94aa-d5404943c77d")
+		)
+		(pin "4"
+			(uuid "61698262-1451-4301-aeda-3d19e490f197")
+		)
+		(pin "5"
+			(uuid "77148a92-9c2b-4d9d-bb0d-8e5b1a34a984")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fe0e00b-53ee-4575-bab8-385a495f6622")
+		(property "Reference" "#PWR39"
+			(at 43.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a19a8d21-b756-4f94-ac10-2a978b159f6b")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512bd616-d3ea-415c-a1ef-78efe4bd8a0c")
+		(property "Reference" "#PWR50"
+			(at 80.01 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c7c1ecc-0bd4-4775-9990-885b5b156659")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "516649a5-735e-4265-8749-a201c1e06945")
+		(property "Reference" "#PWR49"
+			(at 80.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72734dda-40b4-4d8b-9747-94db450daf57")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "517837b7-7901-4fd4-b8ad-3643a73a9a7d")
+		(property "Reference" "#PWR71"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceab1938-5a13-4151-ad47-06ecb8d2f4bf")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56506b00-133d-49c4-a9ab-e50579a43b3a")
+		(property "Reference" "#PWR47"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e799531-2ac0-4dde-8285-0cea5aadf1ba")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 82.55 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58133af8-66c1-434c-86bb-2fdd6604c33e")
+		(property "Reference" "Q3"
+			(at 81.28 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 81.28 40.64 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baaa48c0-53b2-4bcd-8124-b261d9c52136")
+		)
+		(pin "2"
+			(uuid "55eb37aa-072b-4456-bdf3-a62cd71ab093")
+		)
+		(pin "6"
+			(uuid "a9db1fac-c25f-42cc-9c72-a0ecd569faca")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a0")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71840")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b26")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597e2e29-746b-48ee-a578-db2384711340")
+		(property "Reference" "#PWR74"
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "883f5d7e-da66-4837-a428-b9564a3a186a")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a35d3f5-e419-440d-87b3-11f28c3c7c13")
+		(property "Reference" "#PWR37"
+			(at 43.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f099ef-91b7-407f-9bba-f33008a27d15")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 128.27 110.49 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb6483d-8323-4e27-ae43-f9ba3ea5b351")
+		(property "Reference" "RN6"
+			(at 130.81 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 130.81 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 126.238 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 128.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "38dc02c9-8ad0-403a-93fd-19a678aef056")
+		)
+		(pin "5"
+			(uuid "b0a4a7a6-3244-49fb-80d0-0ff4c7a2df13")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea7b")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229296")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e84e")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f1")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd06649044e")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515daff")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 186.69 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d461ab9-8f8a-42b6-bcd9-604c9f9e71fa")
+		(property "Reference" "#PWR81"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 186.69 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d31e95-8292-4e02-8eda-8ec18ad9f307")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d4aa831-6dd7-4393-8b5b-62447a0fd703")
+		(property "Reference" "#PWR77"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58da2228-4480-405f-93d5-59e88cdab70c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 45.72 119.38 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f745f8d-2921-4afa-ad89-e54ef0d51494")
+		(property "Reference" "Q2"
+			(at 45.72 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 43.18 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7ed")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3c4")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219cc")
+		)
+		(pin "3"
+			(uuid "b7172e12-bf36-4b03-84f2-9a212ce8a2dd")
+		)
+		(pin "4"
+			(uuid "edfc61ad-eff2-47df-b674-52dd982ee5a3")
+		)
+		(pin "5"
+			(uuid "57bc3e55-e52b-4bdc-bb43-2eb1fd920fe0")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 158.75 67.31 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "634ac6dd-dd8e-4d58-9f4e-ebd2057af179")
+		(property "Reference" "Q7"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f3")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3ca")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d2")
+		)
+		(pin "3"
+			(uuid "9c5b6f4e-21b7-4bf0-89ef-1d31afbe3d2d")
+		)
+		(pin "4"
+			(uuid "8a4c286f-4464-407c-a91f-e4073af6af53")
+		)
+		(pin "5"
+			(uuid "2c46748a-95ea-4ee9-afd7-5f258732b7f7")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "640f9dcd-ed7b-4831-84ab-166a321052bb")
+		(property "Reference" "#PWR69"
+			(at 149.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e74e491b-a3e2-4b3b-96ab-199924129363")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659876c1-752b-4dcb-90d7-64706abf0712")
+		(property "Reference" "#PWR44"
+			(at 73.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e4a19b-fc30-4892-a517-750d383163fd")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67271b3c-a74b-44a5-8977-300617d830cb")
+		(property "Reference" "#PWR63"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9532c507-4eca-40f3-baa4-aeea52fe2b59")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67e4d7d5-be02-4e94-9f9e-deb9fd7453e2")
+		(property "Reference" "#PWR32"
+			(at 36.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eee9c75-573e-4725-91fc-fbfca7a34e00")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 128.27 58.42 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68e0b63d-7d83-48de-abb2-cd01e3c30999")
+		(property "Reference" "RN6"
+			(at 130.81 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 130.81 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 126.238 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19ce")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf039")
+		)
+		(pin "2"
+			(uuid "fc68d0a8-58f3-47a3-8699-6f216ff294a2")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229297")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e84f")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926ef")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd06649044c")
+		)
+		(pin "7"
+			(uuid "4a0c2057-6b3b-470c-b82b-4fe8ba25077a")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 204.47 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79f3b1e8-0d1a-4626-9f6a-4272275fcadf")
+		(property "Reference" "#PWR84"
+			(at 204.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 204.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2455ef4-951f-4803-ab63-0a05b6032f02")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 110.49 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e5053d8-9471-4a86-981e-c3684bea965a")
+		(property "Reference" "RN5"
+			(at 113.03 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 113.03 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 112.522 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaafe")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af2")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691530")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df0b")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea5844368c")
+		)
+		(pin "8"
+			(uuid "bac75a9b-5d0e-47b9-b1c3-468d6e7d97e3")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f115")
+		)
+		(pin "1"
+			(uuid "96c95131-1ab4-45bd-9fad-cbece940c427")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 54.61 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82ff4b50-3928-4d8b-9e2b-5ae98aa2a72c")
+		(property "Reference" "#PWR43"
+			(at 54.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 54.61 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24045504-12b9-4ae3-86d1-38a7b4f07e87")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 193.04 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87dc8902-93d5-4e30-abf3-c45982cf0c8b")
+		(property "Reference" "#PWR83"
+			(at 193.04 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 193.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 193.04 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ddc84565-dda4-429e-9118-586bd5ae98a3")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 73.66 110.49 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9310fc63-725b-4698-bebf-38c5becf7811")
+		(property "Reference" "RN3"
+			(at 76.2 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 76.2 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 75.692 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 73.66 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaafb")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46aef")
+		)
+		(pin "3"
+			(uuid "baed4798-447d-4dea-b802-88d89958ba06")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df08")
+		)
+		(pin "6"
+			(uuid "074143a5-da7c-4b3c-8394-e7f2efc816c1")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8fd")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f112")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18828")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93405ddd-aeab-473a-9913-6a72921c8981")
+		(property "Reference" "#PWR70"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1af3c32-07cf-4520-9a64-5dea54f8d976")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 119.38 119.38 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93ce6fca-9097-4f5e-bf86-7dfdc171a712")
+		(property "Reference" "Q6"
+			(at 119.38 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f4")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3cb")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d3")
+		)
+		(pin "3"
+			(uuid "b9fe230f-831b-420f-938a-d57e4d0d2eee")
+		)
+		(pin "4"
+			(uuid "c74b837d-1ac9-4ec5-82dc-7f67917e7453")
+		)
+		(pin "5"
+			(uuid "726ae8a1-f805-41cd-99d2-cbf78592806c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "955ea5ad-ae65-424e-a794-0f74ba76fb4e")
+		(property "Reference" "#PWR78"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ca6e162-a006-4eb9-9135-7e9c61aae436")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 73.66 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96c71b97-2005-4e17-808f-32236886c5c1")
+		(property "Reference" "#PWR46"
+			(at 73.66 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbe781db-1681-4541-9ca7-3d87d3ce2067")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98705fec-8ca8-4d1c-9f40-78f844c9b209")
+		(property "Reference" "#PWR52"
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbee097c-b2cf-450b-86fe-db04e8e5c0d0")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 82.55 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98f4e73e-adf7-4e86-891f-a0c8f7a7e665")
+		(property "Reference" "Q4"
+			(at 81.28 90.17 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 81.28 92.71 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c3e3c31-d77f-426a-a46e-b7e5de036b24")
+		)
+		(pin "2"
+			(uuid "454909f7-4022-42f8-87a8-156f1d27e78c")
+		)
+		(pin "6"
+			(uuid "dd807584-8fb2-4200-8d11-a27036b7946d")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a5")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71845")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b2b")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 54.61 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99f1a9b1-28a5-488f-8c09-0c274f161723")
+		(property "Reference" "#PWR42"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.61 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dc1f812-3f13-4884-ab29-0ba4e0fdb0c2")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a005479-e99e-4983-bc29-ed189fd7676c")
+		(property "Reference" "#PWR38"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.18 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cc9b9b6-8d1e-41be-8eb0-b231b05db79a")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 54.61 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ab32d05-748c-4cda-8285-5f8448cda539")
+		(property "Reference" "#PWR41"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 54.61 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7abcf81-26b8-4877-bc4e-6165b02ddefb")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 36.83 87.63 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b4886b6-ddfd-44b4-a37a-985c1767552f")
+		(property "Reference" "RN1"
+			(at 39.37 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 39.37 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 38.862 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "47ecc84f-a359-4140-8328-ceb8a8c0335d")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46ae8")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691525")
+		)
+		(pin "5"
+			(uuid "98d87782-3c69-4128-8fb7-b496241e0ad3")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443681")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee8f5")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f10b")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18820")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN1")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80.01 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cd6613d-c4a6-4b20-92a3-c2b6f16a4007")
+		(property "Reference" "#PWR51"
+			(at 80.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 80.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 80.01 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849a0eb1-5f60-46de-a460-0d7ed1c1c810")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 110.49 35.56 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f5f1f69-aad5-4430-a406-bde2b5415d74")
+		(property "Reference" "RN5"
+			(at 113.03 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 113.03 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 112.522 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaafd")
+		)
+		(pin "7"
+			(uuid "d2111ec5-edd0-43e5-9290-ee2709728c1a")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa70569152c")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df0a")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443688")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee900")
+		)
+		(pin "2"
+			(uuid "3011f03c-7720-44ba-986e-3f1d1170f7d8")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c1882b")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 73.66 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a254d610-6f23-4169-a5f7-59c5524f154b")
+		(property "Reference" "RN3"
+			(at 76.2 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 76.2 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 75.692 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaaf7")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46aeb")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa70569152a")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df04")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443686")
+		)
+		(pin "8"
+			(uuid "6fd71e69-8a66-4a67-83c7-0b657e0d510c")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f10e")
+		)
+		(pin "1"
+			(uuid "f263384c-9788-47ec-8a5a-bf7244a09db6")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 167.64 109.22 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25fca32-2224-479d-bde0-141098a2a508")
+		(property "Reference" "RN8"
+			(at 170.18 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 165.608 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1fc61e2e-198c-44dd-8e4d-456f4b723405")
+		)
+		(pin "5"
+			(uuid "adb2e848-face-492b-ad75-65fcf8b3bbb1")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea7c")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229298")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e850")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f2")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd06649044f")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db00")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN8")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 149.86 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4ac35d9-709b-45fa-a461-ee052ce6d7f2")
+		(property "Reference" "#PWR68"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e494da08-d02d-4aca-b276-0ec7fa244e14")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f4d9a5-3a76-474e-866e-23b9e5b2a9cd")
+		(property "Reference" "#PWR58"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd36145f-5c1e-4f84-881e-1246c8dabc00")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 36.83 110.49 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa68f12-27c4-413d-be20-0baaaedc1425")
+		(property "Reference" "RN1"
+			(at 39.37 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 39.37 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 38.862 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaaff")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af1")
+		)
+		(pin "3"
+			(uuid "2fd2502e-8b50-426d-b11e-e3b0d3776a0e")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df0c")
+		)
+		(pin "6"
+			(uuid "29f35366-b90c-4556-9c54-cc2d084dbddd")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee903")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f114")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c1882e")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 149.86 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab260c17-6d82-4b74-bd73-0305eb02f664")
+		(property "Reference" "RN7"
+			(at 152.4 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.4 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 151.892 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "acba5b27-7920-464a-9167-e41604ae6a6d")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af6")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691533")
+		)
+		(pin "5"
+			(uuid "5a20798f-84b3-4932-b8fb-4abdef1673c3")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea5844368f")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee904")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f119")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c1882f")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adf130d4-3141-4ace-94f2-5e2961d115f3")
+		(property "Reference" "#PWR75"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5516243a-457e-4ea2-87e9-438e322324ec")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 45.72 67.31 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1657309-f2ac-48dd-b986-971a5fd5870d")
+		(property "Reference" "Q1"
+			(at 45.72 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 43.18 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f2")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3c9")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d1")
+		)
+		(pin "3"
+			(uuid "06084339-738c-42b4-a028-5cebff061fba")
+		)
+		(pin "4"
+			(uuid "63849ae1-a170-4e17-83ac-87b09891e20b")
+		)
+		(pin "5"
+			(uuid "9bffefe1-8dd0-42c8-a2c0-f11f7c5c9e95")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 195.58 67.31 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b29174fc-698f-4a97-a6fb-639a2f64d3a8")
+		(property "Reference" "Q9"
+			(at 195.58 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f5")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3cc")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d4")
+		)
+		(pin "3"
+			(uuid "5652428b-1a97-47da-97b8-7d523a3265e8")
+		)
+		(pin "4"
+			(uuid "d2e2bb85-c2a0-4ef0-b259-b35aa86beec9")
+		)
+		(pin "5"
+			(uuid "6e414e69-4d38-470e-87f9-18d435cdbf19")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q9")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.27 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc794cdf-5b58-4674-ad5d-250bf58855a7")
+		(property "Reference" "#PWR65"
+			(at 128.27 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dac39b30-7b8e-4350-a400-4c0c313f7c0f")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 149.86 109.22 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf8a5680-ebac-44f6-8f8d-f1e31d209858")
+		(property "Reference" "RN7"
+			(at 152.4 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.4 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 151.892 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 149.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beab00")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af3")
+		)
+		(pin "3"
+			(uuid "b8f77ae3-d5cd-45d4-8e4d-59d6fc381052")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df0d")
+		)
+		(pin "6"
+			(uuid "ae384a73-7a2b-464d-87f0-20111e1ebed3")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee905")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f116")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18830")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a17fb8-8b2e-4e9c-8de4-6bb9d82fa7f6")
+		(property "Reference" "#PWR60"
+			(at 116.84 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15f8f3a1-df9d-404f-a84f-1b4d0d7ef475")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2a4187e-15e3-4686-8dfc-f0e67cd615c4")
+		(property "Reference" "#PWR72"
+			(at 156.21 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60ae7f44-4a5f-479a-a78b-1f8911c5887c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 36.83 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3731126-d2ce-40fb-a2c8-8f637b338dda")
+		(property "Reference" "#PWR34"
+			(at 36.83 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 36.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbd65405-aca2-43a1-a8f0-364d29e96e1c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 167.64 86.36 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4037611-9c6a-4947-82c9-202917696478")
+		(property "Reference" "RN8"
+			(at 170.18 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 165.608 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19cf")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf03a")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea7e")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b22929a")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e852")
+		)
+		(pin "6"
+			(uuid "35c1fc55-93f0-4cef-92df-abb015a1daa7")
+		)
+		(pin "3"
+			(uuid "76574f41-761f-4083-8eb9-489224f1a186")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db02")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN8")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 82.55 119.38 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c66c1418-adaa-463d-bf14-c6b6b9e3fc27")
+		(property "Reference" "Q4"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f6")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3cd")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d5")
+		)
+		(pin "3"
+			(uuid "b78665e8-d399-4b4b-b813-c8180d53a55d")
+		)
+		(pin "4"
+			(uuid "69a4d8fe-d4a9-4f0a-8c09-4517715d635c")
+		)
+		(pin "5"
+			(uuid "c2bdda1b-5677-45b4-b0be-32bced806c41")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 110.49 87.63 180)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb5c06f3-55a6-4db7-9e2e-36fc9d3accbf")
+		(property "Reference" "RN5"
+			(at 113.03 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 113.03 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 112.522 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 110.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "33990b8d-681c-4f45-9f3b-3ea1ba567640")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46af7")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691534")
+		)
+		(pin "5"
+			(uuid "ab91678b-8b9f-4f43-94f3-4d3fe6090e9d")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443690")
+		)
+		(pin "8"
+			(uuid "804d0671-45e5-45eb-a439-1b70a85ee906")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f11a")
+		)
+		(pin "1"
+			(uuid "c3d9869d-d210-450e-9dbf-8dd370c18831")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 54.61 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdf55ca0-fe59-4ce5-ac04-5170b30e18e9")
+		(property "Reference" "RN2"
+			(at 57.15 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 57.15 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 52.578 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 54.61 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19d1")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf03c")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea7f")
+		)
+		(pin "1"
+			(uuid "22085425-3cfd-48d9-9cb9-f53264b264ab")
+		)
+		(pin "8"
+			(uuid "79907635-d781-4fad-a145-11f76639e521")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f4")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd066490451")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db03")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d13534c5-c558-434d-b71f-68c8426bfe92")
+		(property "Reference" "#PWR76"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed0d1efc-a070-4758-a44f-8489e63b534e")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 158.75 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d262f96a-310e-4638-b366-8e41bb3e4372")
+		(property "Reference" "Q8"
+			(at 157.48 88.9 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 157.48 91.44 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1115ca0-45a1-485f-9392-e0e8e05d1dd7")
+		)
+		(pin "2"
+			(uuid "ade4ead5-30b4-4857-bc14-c9bfd52631ba")
+		)
+		(pin "6"
+			(uuid "232e7b22-784e-467c-b07e-84b0fa173e51")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a6")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71846")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b2c")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 167.64 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3b1eaf2-e09b-47da-90c5-00f87b31f11b")
+		(property "Reference" "RN8"
+			(at 170.18 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 165.608 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 167.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19d0")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf03b")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea80")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b22929b")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e853")
+		)
+		(pin "6"
+			(uuid "04ea0280-7ba1-46da-a9b5-11e2a9959099")
+		)
+		(pin "3"
+			(uuid "06e86476-c2f5-4f05-be3a-6ba4783db681")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db04")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 167.64 58.42 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da416c87-3e43-4c94-a136-e891cf8bcd44")
+		(property "Reference" "RN8"
+			(at 170.18 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 170.18 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 165.608 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 167.64 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fb5d8299-fd5c-4711-8c81-087050badaca")
+		)
+		(pin "5"
+			(uuid "b7c6e2f7-238e-4ed6-a718-2089de2b657e")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea81")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b22929d")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e855")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f5")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd066490452")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db05")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 158.75 118.11 270)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbcfe21a-7c75-4e84-9571-325993708800")
+		(property "Reference" "Q8"
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 156.21 120.65 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44ae7290-1166-47b4-ad78-e284ffa1f7f7")
+		)
+		(pin "2"
+			(uuid "140b05af-e6c6-4cc3-91e6-39770b86b3ce")
+		)
+		(pin "6"
+			(uuid "a31c24d4-e991-4a94-8fc4-97ad617219d6")
+		)
+		(pin "3"
+			(uuid "200025c0-b311-45cd-9409-825e05b29958")
+		)
+		(pin "4"
+			(uuid "6e19d1b4-cd09-4aa0-8c49-a73fd3c7c333")
+		)
+		(pin "5"
+			(uuid "f07c84e1-ab7d-4e08-869f-512e8ffc8560")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 91.44 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd91a717-eb4a-4d4b-8a76-4a9a3165393c")
+		(property "Reference" "RN4"
+			(at 93.98 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 93.98 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 89.408 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19d2")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf03d")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea82")
+		)
+		(pin "1"
+			(uuid "9120a2c4-45f0-4fcf-a12f-ecc6f07d7bea")
+		)
+		(pin "8"
+			(uuid "bcfc2bb3-562a-4788-8e39-55a8a971137a")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f6")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd066490453")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db06")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.27 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de604356-9633-4f82-8e38-2f95a8440fe8")
+		(property "Reference" "#PWR66"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc211369-db87-4317-a6ac-c4c039e8cbb8")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 91.44 87.63 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d9361b-fb27-408a-b87c-29f60ef05b93")
+		(property "Reference" "RN4"
+			(at 93.98 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 93.98 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 89.408 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19d3")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf03e")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea83")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b22929e")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e856")
+		)
+		(pin "6"
+			(uuid "1a3ce263-ddba-4628-bfff-d2cd17715389")
+		)
+		(pin "3"
+			(uuid "9fe51694-2fb4-4f30-862b-8618b65cca0d")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db07")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5e47229-fbdd-472a-af7b-32d13b528ada")
+		(property "Reference" "#PWR73"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fde632e2-02c3-4d07-b301-4359638ebba2")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.27 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a2c8b5-645e-4318-92d8-4a79f3fda6f5")
+		(property "Reference" "#PWR64"
+			(at 128.27 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "548b1384-bda9-4974-99d1-3031537272b2")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 91.44 58.42 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9427068-2ca8-4c85-ba7d-868f7efa1822")
+		(property "Reference" "RN4"
+			(at 93.98 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 93.98 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 89.408 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 91.44 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f370bfa-f481-4c7f-ad77-e30dd09e19d5")
+		)
+		(pin "5"
+			(uuid "f24bb097-f770-4b5f-a252-3eaa0afbf040")
+		)
+		(pin "2"
+			(uuid "8d8d45ac-b1e0-48d3-b76f-185f59425fd5")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b22929f")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e857")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926f8")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd066490455")
+		)
+		(pin "7"
+			(uuid "bf5ec770-b365-4100-bfa8-4b860fa554f9")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 54.61 110.49 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e988adbc-f37e-434a-8e65-b96ae0c048ae")
+		(property "Reference" "RN2"
+			(at 57.15 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 57.15 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 52.578 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 54.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b3a23a2d-c69e-4a1a-bea5-c07bb0059187")
+		)
+		(pin "5"
+			(uuid "2df40146-ff01-4fa3-bad6-b58810983205")
+		)
+		(pin "2"
+			(uuid "dfa48bc6-b940-4c37-8da0-44e3968bea84")
+		)
+		(pin "1"
+			(uuid "be5397c8-fb3e-46fc-92d2-02981b229292")
+		)
+		(pin "8"
+			(uuid "49f6f4d0-4d7a-4201-a951-848c7bb1e84a")
+		)
+		(pin "6"
+			(uuid "5ec698db-a1d3-424d-aa7a-daa3c6a926ee")
+		)
+		(pin "3"
+			(uuid "41bf9100-cdde-40c0-bc6f-1fd06649044b")
+		)
+		(pin "7"
+			(uuid "01603663-2eba-4b5f-bb43-9b7d0515db08")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 167.64 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed79229b-1862-4b9a-938f-bde8ad8d56ba")
+		(property "Reference" "#PWR79"
+			(at 167.64 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac416fa7-5d6a-4e9c-821b-34cbc2f5cf9d")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NANOEveryV3.0-eagle-import:BSS138PS")
+		(at 195.58 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f46f0e42-3f48-4a4a-8a27-25b9fab04c10")
+		(property "Reference" "Q9"
+			(at 194.31 38.1 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BSS138PS"
+			(at 194.31 40.64 90)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 195.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1fb3e93-972a-4843-a861-cc2bdcc5dd16")
+		)
+		(pin "2"
+			(uuid "b6bf5c94-abef-489f-97dc-bbc5ab99e338")
+		)
+		(pin "6"
+			(uuid "30f8b030-dd38-431a-816e-55aae02afe0f")
+		)
+		(pin "3"
+			(uuid "091df774-31b2-4ed2-b0b4-a5ef881264a7")
+		)
+		(pin "4"
+			(uuid "c3457319-3c96-49dd-a859-d8ef87b71847")
+		)
+		(pin "5"
+			(uuid "e866bf2c-1662-48f3-a913-7c6c3f922b2d")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 43.18 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f542a28b-4073-448e-9fbf-44f80e7ab724")
+		(property "Reference" "#PWR36"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 43.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 43.18 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff3f21e7-88b3-42a5-9cef-e326186ee9ad")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87b51cc-97f3-42bf-938d-b593f320fcf1")
+		(property "Reference" "#PWR61"
+			(at 116.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c68e812-6c85-4630-86d5-631ed26f5338")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 36.83 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8b7cc7d-a84d-4357-bfe6-ff1e911d6f62")
+		(property "Reference" "RN1"
+			(at 39.37 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 39.37 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603"
+			(at 38.862 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6310bef4-6e97-423d-aa1a-3adb22beaaf4")
+		)
+		(pin "7"
+			(uuid "68e91bec-9284-4fcf-b102-f6ebf3d46aea")
+		)
+		(pin "3"
+			(uuid "b86dd1b6-2a29-4eaf-8488-6fa705691527")
+		)
+		(pin "5"
+			(uuid "e77d51f0-e551-49cd-8ba5-704a17d2df01")
+		)
+		(pin "6"
+			(uuid "25f86784-4f25-4272-afc8-6fea58443683")
+		)
+		(pin "8"
+			(uuid "3334cc5f-e79d-43ca-84f6-d84db8fba2d0")
+		)
+		(pin "2"
+			(uuid "f055fb8e-7228-4d8b-85e3-b5bd0420f10d")
+		)
+		(pin "1"
+			(uuid "e746bd14-2680-4ead-ba9a-561a79f2be75")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "RN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9423a31-23ee-4eba-83f2-8299a966b1b4")
+		(property "Reference" "#PWR56"
+			(at 110.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 110.49 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f74de1b-96b2-4e88-844c-6ffe1c536e21")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 91.44 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc2a6a28-1c96-4343-819b-f4a31bf777bf")
+		(property "Reference" "#PWR54"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8ff0df1-c47a-4721-8f94-12a56d6274c7")
+		)
+		(instances
+			(project "ParallelPortConverter"
+				(path "/10cef10d-4734-4f6f-aa7c-9615a4f62ad6/36dbfa60-9555-43e0-961f-6ed2cf055d16"
+					(reference "#PWR54")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
