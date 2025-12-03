@@ -1,3 +1,5 @@
+6 Axis Breakout
+
 This is a breakout board designed to expand the V2 Smoothieboard in order to use up to 6 axis.  It gives the breakouts for step/dir/en along with endstops for the axes and connections which are not on the mainboard.
 It uses 4 of the Gadgeteer headers to add these functions:
 
