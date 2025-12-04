@@ -17,5 +17,8 @@ It uses 4 of the Gadgeteer headers to add these functions:
 
 -Header to breakout all functions to a daughterboard or large single harness.  (i.e. Parallel port connector board for retrofitting existing machines)
 
+PDF Schematic https://github.com/Ccecil/6-Axis-Breakout/blob/main/6AxisBreakout/6AxisBreakout.pdf
+
 <img width="1723" height="960" alt="6AxisBreakoutTop" src="https://github.com/user-attachments/assets/6e85c686-0af0-4fd4-987c-c7e973a597da" />
 <img width="1723" height="960" alt="6AxisBreakoutBot" src="https://github.com/user-attachments/assets/7506d606-774e-4141-a341-f6359a646ccc" />
+
